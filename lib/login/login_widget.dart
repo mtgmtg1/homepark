@@ -39,17 +39,29 @@ class _LoginWidgetState extends State<LoginWidget> {
   TextEditingController? passwordCreate2Controller;
 
   late bool passwordCreate2Visibility;
-
   @override
-  void initState() {
-    super.initState();
-    emailAddresscreateController = TextEditingController(text: '@hoca.app');
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+
     nameController = TextEditingController(
         text: dateTimeFormat(
       'yMd',
       getCurrentTimestamp,
       locale: FFLocalizations.of(context).languageCode,
     ));
+      nameloginController = TextEditingController(
+        text: dateTimeFormat(
+      'yMd',
+      getCurrentTimestamp,
+      locale: FFLocalizations.of(context).languageCode,
+    ));
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    emailAddresscreateController = TextEditingController(text: '@hoca.app');
+
     phoneController = TextEditingController(
         text: valueOrDefault<String>(
       currentUserLocationValue?.toString(),
@@ -61,12 +73,7 @@ class _LoginWidgetState extends State<LoginWidget> {
     passwordCreate2Visibility = false;
     usernameController = TextEditingController();
     emailAddressloginController = TextEditingController(text: '@hoca.app');
-    nameloginController = TextEditingController(
-        text: dateTimeFormat(
-      'yMd',
-      getCurrentTimestamp,
-      locale: FFLocalizations.of(context).languageCode,
-    ));
+  
     phoneloginController = TextEditingController(
         text: valueOrDefault<String>(
       currentUserLocationValue?.toString(),
