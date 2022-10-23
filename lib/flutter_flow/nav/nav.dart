@@ -158,15 +158,6 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ),
             ),
             FFRoute(
-              name: 'Ti_Measure_save',
-              path: 'tiMeasureSave',
-              requireAuth: true,
-              builder: (context, params) => TiMeasureSaveWidget(
-                ti: params.getParam(
-                    'ti', ParamType.DocumentReference, false, 'User'),
-              ),
-            ),
-            FFRoute(
               name: 'Ti_Measure_check',
               path: 'tiMeasureCheck',
               requireAuth: true,

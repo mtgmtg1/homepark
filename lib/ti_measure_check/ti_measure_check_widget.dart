@@ -814,8 +814,8 @@ class _TiMeasureCheckWidgetState extends State<TiMeasureCheckWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(0, 133, 0, 0),
                             child: FFButtonWidget(
-                              onPressed: () async {
-                                context.pushNamed('Ti_Measure_save');
+                              onPressed: () {
+                                print('Button pressed ...');
                               },
                               text: '다음',
                               options: FFButtonOptions(
