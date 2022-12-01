@@ -153,9 +153,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               path: 'tiMeasure',
               requireAuth: true,
               builder: (context, params) => TiMeasureWidget(
-                  // usercheck5: params.getParam(
-                  //     'usercheck5', ParamType.DocumentReference, false, 'User'),
-                  ),
+                usercheck5: params.getParam(
+                    'usercheck5', ParamType.DocumentReference, false, 'User'),
+              ),
             ),
             FFRoute(
               name: 'Ti_Measure_check',
@@ -189,9 +189,9 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               path: 'tiFileTest',
               requireAuth: true,
               builder: (context, params) => TiFileTestWidget(
-                  // usercheck2: params.getParam(
-                  //     'usercheck2', ParamType.DocumentReference, false, 'User'),
-                  ),
+                usercheck2: params.getParam(
+                    'usercheck2', ParamType.DocumentReference, false, 'User'),
+              ),
             ),
             FFRoute(
               name: 'Manage_Upload',
