@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "505116908363",
+    "project_id": "homein3-3dda3",
+    "storage_bucket": "homein3-3dda3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505116908363:android:415c3c3a687e79aa9ee6ce",
+        "android_client_info": {
+          "package_name": "com.mycompany.chmsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505116908363-hhg8k2tb76b5qt4mu2mps0g1u6emo664.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALB50AmbaUheH7QsTcif8sZdVni_8-o00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505116908363-hhg8k2tb76b5qt4mu2mps0g1u6emo664.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "505116908363-3rv6754dcoa2t9ln3sclfc2i3g01i303.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.chmsapp1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505116908363:android:be8bbc94c5fd5fa19ee6ce",
+        "android_client_info": {
+          "package_name": "com.mycompany.chmsapp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505116908363-hhg8k2tb76b5qt4mu2mps0g1u6emo664.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALB50AmbaUheH7QsTcif8sZdVni_8-o00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505116908363-hhg8k2tb76b5qt4mu2mps0g1u6emo664.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "505116908363-3rv6754dcoa2t9ln3sclfc2i3g01i303.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.chmsapp1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
